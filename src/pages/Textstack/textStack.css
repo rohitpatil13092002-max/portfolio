@@ -1,6 +1,8 @@
 .textstack {
-  padding-left: 130px;
-  margin-top: 60px;
+  
+  margin: 30px 0;
+  padding: 20px;;
+ 
 }
 .textstack hr{
   color:#138781 ;
@@ -9,4 +11,36 @@
 }
 .textstack h1 {
   color: #138781;
+}
+
+
+.container-textstack{
+  
+  margin: 50px 0;
+  padding: 20px;;
+  margin-left: 200px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(169, 195, 221, 0.35) 0px -2px 6px 0px inset;
+ 
+}
+.lag-box{
+ 
+  display: flex;
+  gap: 1px;
+justify-content: center;
+padding: 10px;
+  width: 160px;
+  border: 2px solid black;
+}
+.lag-main{
+  
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.textstack h5 {
+  font-weight: 600;
+  color: #333;
+  margin-top: 8px;
 }

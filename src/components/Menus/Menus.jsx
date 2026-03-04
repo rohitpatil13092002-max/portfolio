@@ -25,20 +25,23 @@ const Menus = ({ toggle }) => {
             <div className="nav-item">
               <div className="nav-link ">
                 {<FcHome />}
-                Home
+                <a className="linktext" href="#homepage">
+                  Home
+                </a>
               </div>
               <div className="nav-link ">
                 {<FcAbout />}
-                About
+                <a className="linktext" href="#aboutpage">
+                  About
+                </a>
               </div>
 
               <div className="nav-link ">
-                {<FcBusinessman />}
-                Work Experince
-              </div>
-              <div className="nav-link ">
                 {<FcBiotech />}
-                Tech Stack
+                <a className="linktext" href="#techstackpage">
+                  {" "}
+                  Tech Stack
+                </a>
               </div>
               <div className="nav-link ">
                 {<FcKindle />}
@@ -54,7 +57,9 @@ const Menus = ({ toggle }) => {
               </div>
               <div className="nav-link ">
                 {<IoIosContacts />}
-                Contact
+                <a className="linktext" href="#contactpage">
+                  Contact
+                </a>
               </div>
             </div>
           </div>
